@@ -1,0 +1,257 @@
+body {
+    background-color: #FFDCDF;
+    font-family: 'Quintessential', sans-serif;
+    color: black;
+}
+
+.header {
+    
+    width: 100%;
+    max-width: 1800px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icone {
+    width: 48px;
+    border-radius: 50%;
+}
+
+.main {
+    
+    width: 100%;
+    max-width: 1400px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+
+.perfil__nome {
+    font-family: 'Grechen Fuemen', cursive; 
+    font-size: 60px;
+    font-weight: 700;
+    color: #97234B;
+    margin: 16px 0;
+}
+
+.perfil__titulo {
+    font-family: 'Grechen Fuemen', cursive; 
+    font-size: 40px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.perfil__foto1 {
+    width: 100%;
+    max-width: 800px ;
+    
+       }
+
+.main > .perfil__descricao {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    text-align: justify;
+          
+}
+
+.section {
+    
+    padding: 8px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 24px auto;
+    box-sizing: border-box;
+    text-align: center;   
+        
+}
+
+p::first-letter {
+    font-size: 42px;
+}
+
+.section > .section__cit1 {
+ 
+    font-family: 'Grechen Fuemen', cursive; 
+    font-size: 22px;
+    font-weight: 400;
+    margin: 16px 0;
+    text-align: right ;
+}
+
+blockquote {
+    display: inline;
+    }
+    
+    blockquote::before {
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.35em;
+    }
+
+    .citacoes1__foto2 {
+        float:left;
+        margin-top: 10px;
+    }
+
+    .citacoes1__foto2 {
+        width: 100%;
+        max-width: 400px ;
+        border-radius: 50%;
+        display: flex;
+        justify-content: justify;
+        vertical-align: top;
+        border: 6px solid whitesmoke;
+        }
+    
+.citacoes1__texto {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    text-align: justify;
+    
+}
+
+.section > .section__cit2 {
+    font-family: 'Grechen Fuemen', cursive; 
+    font-size: 22px;
+    font-weight: 400;
+    margin: 16px 0;
+    text-align: right;
+}
+
+blockquote {
+    display: inline;
+    }
+
+    blockquote::before {
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        vertical-align: -0.35em;
+        }
+    
+.foto3 {
+    float:left;
+    margin-top: 10px;
+}
+
+.citacoes2__foto3 {
+    width: 100%;
+    max-width: 400px ;
+    border-radius: 50%;
+    border: 6px solid whitesmoke;
+    display: flex;
+    justify-content: justify;
+    vertical-align: top;
+    }
+
+
+.citacoes2__texto {
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 800px;
+        text-align: justify;        
+    }
+
+
+    .section > .section__cit3a { 
+        font-family: 'Grechen Fuemen', cursive; 
+        font-size: 22px;
+        font-weight: 400;
+        margin: 16px 0;
+        text-align: right;
+    }
+
+.citacoes3__foto1 {
+max-width: 800px;
+text-align: center;
+display: block;
+margin: 0px auto;
+}
+
+.citacoes3__texto {
+       font-family: 'Quintessential', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 800px;
+        text-align: justify;       
+    }
+    
+
+.section__cit3 {
+ 
+    font-family: 'Grechen Fuemen', cursive; 
+    font-size: 26px;
+    font-weight: 400;
+    margin: 16px 0;
+    text-align: center;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 8px;
+        height: 42px ;
+        background-color: #007A78;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-shrink: 0;
+       
+    }
+
+    .footer__texto {
+        font-size: 20px;
+        font-weight: 400;
+        color:whitesmoke;
+        display: flex;
+        align-items: center;    
+    }
+
+    .icone--texto {
+        margin: 0 8px;
+        animation: heartbeat 1s infinite alternate;
+
+    }
+
+    .footer__link {
+        text-decoration: none;
+        box-sizing: border-box;                
+    }
+
+    .footer__link:visited {
+        text-decoration: none;
+        color: plum;
+    }
+
+        @keyframes heartbeat {
+          0% {
+            transform: scale(.8);
+          } 
+          100% {
+            transform: scale(1.2);
+          }
+        }
+    
+   
+
+
+
+
+        
+       
