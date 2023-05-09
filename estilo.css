@@ -175,12 +175,12 @@ blockquote {
         text-align: right;
     }
 
-.citacoes3__foto1 {
-max-width: 800px;
-text-align: center;
-display: block;
-margin: 0px auto;
-}
+    .citacoes3__foto1 {
+        max-width: 800px;
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+        }
 
 .citacoes3__texto {
        font-family: 'Quintessential', sans-serif;
@@ -201,6 +201,32 @@ margin: 0px auto;
     margin: 16px 0;
     text-align: center;
     }
+
+   
+
+    .slides {
+        box-shadow: 2px 2px 4px black ;
+        overflow: hidden;
+        height: 600px;
+        width: 900px;
+        
+     }
+
+     .container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        transform: translate(0);
+
+         }
+
+         .img {
+            object-fit: cover;
+            height: 600px;
+            width: 900px;
+            
+         }
+
+
 
     .footer {
         width: 100%;
